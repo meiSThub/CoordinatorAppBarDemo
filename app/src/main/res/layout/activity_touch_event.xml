@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nanchen.coordinatorlayoutdemo.touchevent.MyFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".touchevent.TouchEventActivity">
+
+    <com.nanchen.coordinatorlayoutdemo.touchevent.MyFrameLayout1
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"/>
+
+    <com.nanchen.coordinatorlayoutdemo.touchevent.MyFrameLayout2
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="click"
+            android:textAllCaps="false"/>
+    </com.nanchen.coordinatorlayoutdemo.touchevent.MyFrameLayout2>
+
+</com.nanchen.coordinatorlayoutdemo.touchevent.MyFrameLayout>
