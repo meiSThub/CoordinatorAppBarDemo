@@ -44,6 +44,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
+        android:text="嵌套滑动+tab悬停"
+        android:onClick="nestedscrollAndTab"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="BottomSheetBehavior"
         android:onClick="btnClick5"/>
 

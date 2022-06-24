@@ -1,5 +1,6 @@
 package com.nanchen.coordinatorlayoutdemo;
 
+import com.nanchen.coordinatorlayoutdemo.nestedscroll.NestScrollingActivity;
 import com.nanchen.coordinatorlayoutdemo.test.MyCoordinatorActivity;
 import com.nanchen.coordinatorlayoutdemo.test.NestedScrollActivity;
 import com.nanchen.coordinatorlayoutdemo.touchevent.TouchEventActivity;
@@ -54,5 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnClick8(View view) {
         startActivity(new Intent(this, TopFlowItemActivity.class));
+    }
+
+    public void nestedscrollAndTab(View view) {
+        startActivity(new Intent(this, NestScrollingActivity.class));
     }
 }

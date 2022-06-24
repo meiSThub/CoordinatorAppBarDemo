@@ -35,6 +35,11 @@
         <activity android:name=".test.NestedScrollActivity" />
         <activity android:name=".BottomSheetActivity" />
         <activity android:name=".BottomSheetDialogActivity" />
+        <activity
+            android:name=".nestedscroll.NestScrollingActivity"
+            android:label="嵌套滑动+tab悬停"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
