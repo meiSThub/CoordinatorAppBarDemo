@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    android:id="@+id/feed_detail_content"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feed_detail_content"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/global_bg_color"
-    android:paddingBottom="@dimen/dp_size_18"
     android:paddingLeft="@dimen/dp_size_10"
+    android:paddingTop="@dimen/dp_size_18"
     android:paddingRight="@dimen/dp_size_10"
-    android:paddingTop="@dimen/dp_size_18">
+    android:paddingBottom="@dimen/dp_size_18">
 
     <ImageView
         android:id="@+id/imageView_head"
@@ -18,7 +17,7 @@
         android:layout_height="@dimen/head_image"
         android:src="@drawable/avatar_default_head"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView_name"
@@ -31,7 +30,7 @@
         android:textSize="@dimen/sp_size_16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_head"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView_role"
@@ -43,7 +42,7 @@
         android:textSize="@dimen/sp_size_10"
         app:layout_constraintBottom_toBottomOf="@+id/imageView_head"
         app:layout_constraintEnd_toEndOf="@+id/textView_name"
-        app:layout_constraintStart_toStartOf="@+id/textView_name"/>
+        app:layout_constraintStart_toStartOf="@+id/textView_name" />
 
     <TextView
         android:id="@+id/textView_content"
@@ -55,7 +54,7 @@
         android:textSize="@dimen/sp_size_14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_head"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView_head" />
 
     <ImageView
         android:id="@+id/image_content"
@@ -66,7 +65,7 @@
         android:src="@drawable/beautify"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_content"></ImageView>
+        app:layout_constraintTop_toBottomOf="@+id/textView_content" />
 
 
     <TextView
@@ -79,6 +78,6 @@
         android:textColor="@color/white_opacity_30"
         android:textSize="@dimen/sp_size_12"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_content"/>
+        app:layout_constraintTop_toBottomOf="@+id/image_content" />
 
 </android.support.constraint.ConstraintLayout>
